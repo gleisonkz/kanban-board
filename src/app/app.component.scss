@@ -15,14 +15,28 @@
   align-items: center;
 
   &__header {
-    @include flex-center(column);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    place-items: center;
+
+    svg {
+      fill: white;
+    }
   }
+
+  &__github {
+    grid-row: 1;
+  }
+
   &__title {
     color: $color-title-on-background;
+    grid-row: 1;
   }
   &__subtitle {
     margin-top: $global-module-size - rem(5);
     color: $color-text-on-background;
+    grid-row: 2;
   }
   &__main {
     margin-top: $global-module-size;
