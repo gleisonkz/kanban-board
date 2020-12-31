@@ -1,20 +1,16 @@
-import { DragDropModule } from '@angular/cdk/drag-drop';
-import { NgModule } from '@angular/core';
-import { MatIconModule } from '@angular/material/icon';
 import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgModule } from '@angular/core';
+
 import { AppComponent } from './app.component';
-import { TaskBoardComponent } from './components/task-board/task-board.component';
-import { TaskComponent } from './components/task/task.component';
+
 @NgModule({
-  declarations: [AppComponent, TaskComponent, TaskBoardComponent],
+  declarations: [
+    AppComponent
+  ],
   imports: [
-    DragDropModule,
-    BrowserModule,
-    MatIconModule,
-    BrowserAnimationsModule,
+    BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
