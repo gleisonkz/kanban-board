@@ -1,0 +1,13 @@
+<div class="board">
+  <h2 class="board__title">
+    <mat-icon>{{ iconName }}</mat-icon> {{ title }}
+  </h2>
+
+  <div class="board__tasks">
+    <app-task
+      cdkDrag
+      *ngFor="let task of taskList"
+      [title]="task.title"
+    ></app-task>
+  </div>
+</div>

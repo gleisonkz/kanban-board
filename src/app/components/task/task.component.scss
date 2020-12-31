@@ -1,0 +1,39 @@
+@import "colors";
+@import "variables";
+@import "media";
+@import "mixins";
+
+:host {
+  display: flex;
+  width: 100%;
+  background-color: $color-background;
+  border-radius: $global-radius;
+  padding: $global-module-size - rem(10);
+
+  .task {
+    display: grid;
+    grid-template-columns: 1fr min-content min-content;
+    column-gap: rem(10);
+    width: 100%;
+    cursor: move;
+
+    &__title {
+      user-select: none;
+      color: $color-text-on-background;
+      font-family: $font-secondary;
+    }
+
+    &__btn {
+      background-color: transparent;
+      cursor: pointer;
+      outline: none;
+
+      &--edit {
+        color: $color-success;
+      }
+      &--delete {
+        color: $color-danger;
+      }
+    }
+  }
+}
