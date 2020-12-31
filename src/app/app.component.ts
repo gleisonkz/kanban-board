@@ -31,21 +31,7 @@ export class AppComponent {
     { title: 'Aprender Java Script' },
   ];
 
-  todosTest: string[] = ['Aprender Angular', 'Aprender React', 'Aprender Vue'];
-
-  inProgressTest: string[] = [
-    'Aprender Type Script',
-    'Aprender SCSS',
-    'Aprender WEbPack',
-  ];
-
-  completedTeste: string[] = [
-    'Aprender HTML',
-    'Aprender CSS',
-    'Aprender Java Script',
-  ];
-
-  drop(event: CdkDragDrop<string[]>) {
+  drop(event: CdkDragDrop<Task[]>) {
     if (event.previousContainer === event.container) {
       moveItemInArray(
         event.container.data,

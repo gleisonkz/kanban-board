@@ -8,7 +8,7 @@
   <main cdkDropListGroup class="kanban__main">
     <app-task-board
       cdkDropList
-      [cdkDropListData]="todosTest"
+      [cdkDropListData]="todos"
       (cdkDropListDropped)="drop($event)"
       [taskList]="todos"
       title="Fazer"
@@ -16,7 +16,7 @@
     ></app-task-board>
     <app-task-board
       cdkDropList
-      [cdkDropListData]="inProgressTest"
+      [cdkDropListData]="inProgress"
       (cdkDropListDropped)="drop($event)"
       [taskList]="inProgress"
       title="Fazendo"
@@ -24,7 +24,7 @@
     ></app-task-board>
     <app-task-board
       cdkDropList
-      [cdkDropListData]="completedTeste"
+      [cdkDropListData]="completed"
       (cdkDropListDropped)="drop($event)"
       [taskList]="completed"
       title="Feito"
