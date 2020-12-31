@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class TaskComponent implements OnInit {
   @Input() title: string | undefined;
+  @Input() backGroundColor: string = 'red';
 
   constructor() {}
 

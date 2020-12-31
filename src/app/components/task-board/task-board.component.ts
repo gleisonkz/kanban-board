@@ -10,6 +10,7 @@ export class TaskBoardComponent implements OnInit {
   @Input() title: string = '';
   @Input() iconName: string = '';
   @Input() taskList: Task[] = [];
+  @Input() taskBgColor: string = '';
 
   constructor() {}
 
