@@ -1,0 +1,40 @@
+@import "colors";
+@import "variables";
+@import "media";
+@import "mixins";
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: rem(350);
+  border-radius: $global-radius;
+  background-color: $color-surface;
+  padding: $global-module-size - rem(10);
+
+  &__title {
+    @include flex-center;
+    mat-icon {
+      margin-right: $global-module-size - rem(15);
+    }
+    color: $color-title-on-background;
+  }
+
+  &__tasks {
+    margin-top: $global-module-size - rem(5);
+    width: 100%;
+
+    app-task + app-task {
+      margin-top: $global-module-size - rem(15);
+    }
+  }
+
+  &__task {
+    width: 100%;
+    background-color: $color-background;
+    border-radius: $global-radius;
+    padding: $global-module-size - rem(10);
+    color: $color-text-on-background;
+    font-family: $font-secondary;
+  }
+}
