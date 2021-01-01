@@ -32,7 +32,7 @@ export class AppComponent implements OnInit {
     );
   }
 
-  drop(event: CdkDragDrop<Task[]>, title: string) {
+  drop(event: CdkDragDrop<Task[]>, status: TodoStatus) {
     if (event.previousContainer === event.container) {
       moveItemInArray(
         event.container.data,
@@ -40,13 +40,14 @@ export class AppComponent implements OnInit {
         event.currentIndex
       );
     } else {
-      console.log(title);
       transferArrayItem(
         event.previousContainer.data,
         event.container.data,
         event.previousIndex,
         event.currentIndex
       );
+      const task: Task = event.item.data;
+      this.taskService.updateTaskStatus(task.taskID, status);
     }
   }
 }

@@ -50,6 +50,17 @@ export class TaskService {
     this.taskListSource$.next(this.taskListSource$.value);
   }
 
+  updateTaskStatus(taskID: number, status: TodoStatus): void {
+    const foundedTask = this.taskListSource$.value.find(
+      (c) => c.taskID === taskID
+    );
+
+    if (foundedTask === undefined)
+      throw new Error('Não existe uma task com esse ID');
+
+    foundedTask.status = status;
+  }
+
   deleteTask(taskID: number): void {
     const foundedTaskIndex = this.taskListSource$.value
       .map((c) => c.taskID)

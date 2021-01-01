@@ -6,6 +6,7 @@
   <div class="board__tasks">
     <app-task
       cdkDrag
+      [cdkDragData]="task"
       *ngFor="let task of taskList"
       [task]="task"
       [backGroundColor]="taskBgColor"
