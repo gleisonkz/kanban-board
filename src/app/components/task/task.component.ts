@@ -42,11 +42,15 @@ export class TaskComponent implements OnInit {
   edit(): void {
     this.changeMode();
     this.input.nativeElement.focus();
+    this.input.nativeElement.select();
   }
 
   save(): void {
-    console.log(this.taskTitleControl.value);
     this.taskService.updateTask(this.task.taskID, this.taskTitleControl.value);
     this.changeMode();
+  }
+
+  delete(): void {
+    this.taskService.deleteTask(this.task.taskID);
   }
 }

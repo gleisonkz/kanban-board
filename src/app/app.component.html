@@ -26,7 +26,7 @@
     <app-task-board
       cdkDropList
       [cdkDropListData]="todos"
-      (cdkDropListDropped)="drop($event)"
+      (cdkDropListDropped)="drop($event, 'todo')"
       [taskList]="todos"
       title="Fazer"
       iconName="list"
@@ -35,7 +35,7 @@
     <app-task-board
       cdkDropList
       [cdkDropListData]="inProgress"
-      (cdkDropListDropped)="drop($event)"
+      (cdkDropListDropped)="drop($event, 'inProgress')"
       [taskList]="inProgress"
       title="Fazendo"
       iconName="settings"
@@ -44,7 +44,7 @@
     <app-task-board
       cdkDropList
       [cdkDropListData]="completed"
-      (cdkDropListDropped)="drop($event)"
+      (cdkDropListDropped)="drop($event, 'completed')"
       [taskList]="completed"
       title="Feito"
       iconName="verified"
