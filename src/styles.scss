@@ -68,3 +68,16 @@ body {
 .cdk-drop-list-dragging .cdk-drag {
   transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
 }
+
+.mat-form-field-infix {
+  border-top: 0;
+}
+
+.mat-form-field {
+  height: 23px;
+}
+
+.mat-input-element,
+.mat-select-value {
+  color: $color-text-on-background !important;
+}

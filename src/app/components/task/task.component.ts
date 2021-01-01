@@ -1,4 +1,15 @@
-import { Component, Input, OnInit } from '@angular/core';
+import {
+  ChangeDetectorRef,
+  Component,
+  ElementRef,
+  Input,
+  OnInit,
+  ViewChild,
+} from '@angular/core';
+import { FormControl, Validators } from '@angular/forms';
+import { Mode } from 'src/app/models/mode.enum';
+import { Task } from '../../models/task.model';
+import { TaskService } from '../../services/task.service';
 
 @Component({
   selector: 'app-task',
@@ -6,10 +17,36 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./task.component.scss'],
 })
 export class TaskComponent implements OnInit {
-  @Input() title: string | undefined;
-  @Input() backGroundColor: string = 'red';
+  @Input() task: Task;
+  @Input() backGroundColor: string;
+  currentMode: Mode = Mode.Show;
+  taskTitleControl: FormControl;
+  @ViewChild('myInput') input: ElementRef<HTMLInputElement>;
 
-  constructor() {}
+  constructor(
+    private taskService: TaskService,
+    private changeDetectorRef: ChangeDetectorRef
+  ) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.taskTitleControl = new FormControl(this.task.title, [
+      Validators.required,
+    ]);
+  }
+
+  changeMode(): void {
+    this.currentMode = this.currentMode === Mode.Edit ? Mode.Show : Mode.Edit;
+    this.changeDetectorRef.detectChanges();
+  }
+
+  edit(): void {
+    this.changeMode();
+    this.input.nativeElement.focus();
+  }
+
+  save(): void {
+    console.log(this.taskTitleControl.value);
+    this.taskService.updateTask(this.task.taskID, this.taskTitleControl.value);
+    this.changeMode();
+  }
 }

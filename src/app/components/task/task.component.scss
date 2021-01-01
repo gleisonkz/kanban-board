@@ -29,12 +29,13 @@
       background-color: transparent;
       cursor: pointer;
       outline: none;
+      color: white;
 
       &--edit {
-        color: $color-success;
+        // color: $color-success;
       }
       &--delete {
-        color: $color-danger;
+        // color: $color-danger;
       }
     }
   }

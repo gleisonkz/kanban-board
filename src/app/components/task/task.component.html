@@ -1,3 +1,23 @@
 <div [ngStyle]="{ backgroundColor: backGroundColor }" class="task">
-  <span class="task__title">{{ title }}</span>
+  <span [ngSwitch]="currentMode">
+    <span *ngSwitchCase="'show'" class="task__title">{{
+      taskTitleControl.value
+    }}</span>
+
+    <mat-form-field *ngSwitchCase="'edit'">
+      <input
+        #myInput
+        (keyup.enter)="save()"
+        [formControl]="taskTitleControl"
+        matInput
+      />
+    </mat-form-field>
+  </span>
+
+  <button (click)="edit()" class="task__btn task__btn--edit">
+    <mat-icon>edit</mat-icon>
+  </button>
+  <button class="task__btn task__btn--delete">
+    <mat-icon>delete</mat-icon>
+  </button>
 </div>
