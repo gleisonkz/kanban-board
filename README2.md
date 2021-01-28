@@ -30,24 +30,22 @@
 
 ---
 
-## :eye_speech_bubble: **Preview**
+## :eye_speech_bubble: **Visualizar**
 
 <div align="center">
 
 Para ver o deploy [Clique Aqui](https://kz-kanban-board.netlify.app/)
 
-### :desktop_computer: Computer
-
-| Desktop  
+| Preview  
 | :------------------------------------------------------------------------------------:
-| <kbd><img src=".github/previews/preview.gif" alt="Desktop"/></kbd>
+| <kbd><img src=".github/preview.gif" alt="Desktop"/></kbd>
 
 </div>
   
 ---
-## :information_source: About
+## :information_source: Sobre
 
-Aplicação feita para praticar alguns coisas de Drag and Drop utilizando o Angular 11.
+Aplicação feita para praticar alguns conceitos de Drag and Drop utilizando o Angular 11.
 
 ---
 
@@ -90,7 +88,7 @@ $ ng serve --open ou ng s -o
 
 ---
 
-## :hammer_and_wrench: **Technologies**
+## :hammer_and_wrench: **Tecnologias**
 
 |           :globe_with_meridians: FrontEnd           |
 | :-------------------------------------------------: |
@@ -102,7 +100,7 @@ $ ng serve --open ou ng s -o
 
 ---
 
-## :sparkles: **Features**
+## :sparkles: **Funcionalidades**
 
 |                                            |
 | :----------------------------------------: |
@@ -112,7 +110,7 @@ $ ng serve --open ou ng s -o
 
 ---
 
-## :boy: **Author**
+## :boy: **Autor**
 
 <div align="center">
 
@@ -132,7 +130,7 @@ Desenvolvido com ❤️ por Gleison Almeida 👋🏽 Meus Contatos!
 
 ---
 
-## :balance_scale: **License**
+## :balance_scale: **Licença**
 
 <div align="center">
 
