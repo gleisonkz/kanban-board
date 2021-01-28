@@ -1,7 +1,7 @@
 <div align="right">
   
-  [![Portuguese](https://www.countryflags.io/us/flat/32.png)](README.md)
-  [![English](https://www.countryflags.io/us/flat/32.png)](README-ENG.md)
+  [![Portuguese](https://www.countryflags.io/br/flat/32.png)](README.md)
+  [![English](https://www.countryflags.io/us/flat/32.png)](README-US.md)
   
 </div>
 
@@ -44,9 +44,9 @@ Para ver o deploy [Clique Aqui](https://kz-kanban-board.netlify.app/)
   
 ---
 
-<div align="center">
-
 ## :information_source: Sobre
+
+<div align="center">
 
 Aplicação feita para praticar alguns conceitos de Drag and Drop utilizando o Angular 11.
 
@@ -97,9 +97,9 @@ $ ng serve --open ou ng s -o
 
 ---
 
-<div align="center">
-
 ## :hammer_and_wrench: **Tecnologias**
+
+<div align="center">
 
 |           :globe_with_meridians: FrontEnd           |
 | :-------------------------------------------------: |
@@ -113,8 +113,9 @@ $ ng serve --open ou ng s -o
 
 ---
 
-<div align="center">
 ## :sparkles: **Funcionalidades**
+
+<div align="center">
 
 |                                            |
 | :----------------------------------------: |
