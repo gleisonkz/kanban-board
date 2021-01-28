@@ -9,32 +9,30 @@ import { TodoStatus } from '../models/todo-status.enum';
 })
 export class TaskService {
   private taskListSource$ = new BehaviorSubject<Task[]>([
-    { taskID: 1, title: 'Aprender Angular', status: TodoStatus.Todo },
-    { taskID: 2, title: 'Aprender React', status: TodoStatus.Todo },
-    { taskID: 3, title: 'Aprender Vue', status: TodoStatus.Todo },
-    { taskID: 4, title: 'Aprender Type Script', status: TodoStatus.InProgress },
-    { taskID: 5, title: 'Aprender SCSS', status: TodoStatus.InProgress },
-    { taskID: 6, title: 'Aprender WEbPack', status: TodoStatus.InProgress },
-    { taskID: 7, title: 'Aprender HTML', status: TodoStatus.Completed },
-    { taskID: 8, title: 'Aprender CSS', status: TodoStatus.Completed },
-    { taskID: 9, title: 'Aprender Java Script', status: TodoStatus.Completed },
+    { taskID: 1, title: 'Aprender Angular', status: 'todo' },
+    { taskID: 2, title: 'Aprender React', status: 'todo' },
+    { taskID: 3, title: 'Aprender Vue', status: 'todo' },
+    { taskID: 4, title: 'Aprender Type Script', status: 'inProgress' },
+    { taskID: 5, title: 'Aprender SCSS', status: 'inProgress' },
+    { taskID: 6, title: 'Aprender WEbPack', status: 'inProgress' },
+    { taskID: 7, title: 'Aprender HTML', status: 'completed' },
+    { taskID: 8, title: 'Aprender CSS', status: 'completed' },
+    { taskID: 9, title: 'Aprender Java Script', status: 'completed' },
   ]);
 
   taskList$: Observable<Task[]> = this.taskListSource$.asObservable();
 
   todo$: Observable<Task[]> = this.taskList$.pipe(
-    map((tasks: Task[]) =>
-      tasks.filter((task: Task) => task.status === TodoStatus.Todo)
-    )
+    map((tasks: Task[]) => tasks.filter((task: Task) => task.status === 'todo'))
   );
   inProgress$: Observable<Task[]> = this.taskList$.pipe(
     map((tasks: Task[]) =>
-      tasks.filter((task: Task) => task.status === TodoStatus.InProgress)
+      tasks.filter((task: Task) => task.status === 'inProgress')
     )
   );
   completed$: Observable<Task[]> = this.taskList$.pipe(
     map((tasks: Task[]) =>
-      tasks.filter((task: Task) => task.status === TodoStatus.Completed)
+      tasks.filter((task: Task) => task.status === 'completed')
     )
   );
 
