@@ -1,6 +1,8 @@
-<div align="right">  
-  [![Portuguese](https://www.countryflags.io/us/flat/32.png)](README.md)
-  [![English](https://www.countryflags.io/us/flat/32.png)](README-ENG.md)  
+<div align="right">
+
+[![Portuguese](https://www.countryflags.io/br/flat/32.png)](README.md)
+[![English](https://www.countryflags.io/us/flat/32.png)](README-ENG.md)
+
 </div>
 
 <p align="center">
@@ -17,24 +19,24 @@
 </p>
 
 <p align="center">
- <a href="#eye_speech_bubble-preview">Visualizar</a> •
- <a href="#information_source-about">Sobre</a> •
- <a href="#arrow_forward-run">Executar</a> •
- <a href="#hammer_and_wrench-technologies">Tecnologias</a> • 
- <a href="#sparkles-features">Funcionalidades</a> •
- <a href="#boy-author">Autor</a> •
- <a href="#balance_scale-license">Licença</a>
+ <a href="#eye_speech_bubble-preview">Preview</a> •
+ <a href="#information_source-about">About</a> •
+ <a href="#arrow_forward-run">Run</a> •
+ <a href="#hammer_and_wrench-technologies">Technologies</a> • 
+ <a href="#sparkles-features">Features</a> •
+ <a href="#boy-author">Author</a> •
+ <a href="#balance_scale-license">License</a>
 </p>
 
 ---
 
-## :eye_speech_bubble: **Visualizar**
+## :eye_speech_bubble: **Preview**
 
 <div align="center">
 
-Para ver o deploy [Clique Aqui](https://kz-kanban-board.netlify.app/)
+To see the deployment [Click Here](https://kz-kanban-board.netlify.app/)
 
-| Pré Visualização  
+| Preview
 | :------------------------------------------------------------------------------------:
 | <kbd><img src=".github/preview.gif" alt="Desktop"/></kbd>
 
@@ -44,30 +46,29 @@ Para ver o deploy [Clique Aqui](https://kz-kanban-board.netlify.app/)
 
 <div align="center">
 
-## :information_source: Sobre
+## :information_source: About
 
-Aplicação feita para praticar alguns conceitos de Drag and Drop utilizando o Angular 11.
+Application built to practice some concepts about Drag and drop with Angular 11.
 
 ---
 
 </div>
 
-## :arrow_forward: **Executar**
+## :arrow_forward: **Run**
 
 <div align="center">
+To run this project you need to clone this repository, have the NOde Package Manager ([`NPM`](https://www.npmjs.com/get-npm)) or the YARN Package Manager ([`YARN`](https://yarnpkg.com/getting-started)) installed.
 
-Para executar esse projeto você precisa baixar este repositório, ter o Gerenciador de Pacotes do Node ([`NPM`](https://www.npmjs.com/get-npm)) ou o Gerenciador de Pacotes YARN ([`YARN`](https://yarnpkg.com/getting-started)) instalado.
-
-Abra o prompt de comando no diretório do projeto, e execute os seguintes códigos:
+Open the command prompt in the project directory, and execute the following commands:
 
 <details>
   <summary><i>com <b>npm</b></i></summary>
   
   ```bash
-  # Instalar dependências
+  # Install dependencies
   $ npm install ou npm i
 
-# Iniciar o servidor de desenvolvimento
+# Start development server
 
 $ ng serve --open ou ng s -o
 
@@ -79,17 +80,17 @@ $ ng serve --open ou ng s -o
 <summary><i>com <b>yarn</b></i></summary>
 
 ```bash
-# Instalar dependências
+# Install dependencies
 $ yarn
 
-# Iniciar o servidor de desenvolvimento
+# Start development server
 $ ng serve --open ou ng s -o
 
 ````
 
 </details>
 
-> ⚠️ O servidor de desenvolvimento será iniciado na porta: 4200 - Acesse <http://localhost:4200>
+> ⚠️ The development server will start on port: 4200 - Access <http://localhost:4200>
 
 </div>
 
@@ -97,7 +98,7 @@ $ ng serve --open ou ng s -o
 
 <div align="center">
 
-## :hammer_and_wrench: **Tecnologias**
+## :hammer_and_wrench: **Technologies**
 
 |           :globe_with_meridians: FrontEnd           |
 | :-------------------------------------------------: |
@@ -112,13 +113,13 @@ $ ng serve --open ou ng s -o
 ---
 
 <div align="center">
-## :sparkles: **Funcionalidades**
+## :sparkles: **Features**
 
-|                                            |
-| :----------------------------------------: |
-| Drag and Drop das tarefas entre os quadros |
-|          Deletar e Editar tarefas          |
-|       Dados salvos no local storage        |
+|                                                       |
+| :---------------------------------------------------: |
+|     Drag and Drop tasks from one list to another      |
+|                 Delete and edit tasks                 |
+| Save to Local storage and retrieve from Local Storage |
 
 </div>
 
@@ -134,7 +135,7 @@ $ ng serve --open ou ng s -o
  <sub><b>Gleison de Almeida</b></sub>
 </a>
 
-Desenvolvido com ❤️ por Gleison Almeida 👋🏽 Meus Contatos!
+Developed with ❤️ by Gleison Almeida 👋🏽 Contact me!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Gleison-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gleison-ribeiro-a65257119)
 [![Github Badge](https://img.shields.io/badge/-Gleison-000?style=flat-square&logo=Github&logoColor=white)](https://github.com/gleisonkz)
