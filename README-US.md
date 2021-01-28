@@ -114,6 +114,7 @@ $ ng serve --open ou ng s -o
 ---
 
 <div align="center">
+
 ## :sparkles: **Features**
 
 |                                                       |
