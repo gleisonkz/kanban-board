@@ -44,9 +44,9 @@ To see the deployment [Click Here](https://kz-kanban-board.netlify.app/)
   
 ---
 
-<div align="center">
-
 ## :information_source: About
+
+<div align="center">
 
 Application built to practice some concepts about Drag and drop with Angular 11.
 
@@ -97,9 +97,9 @@ $ ng serve --open ou ng s -o
 
 ---
 
-<div align="center">
-
 ## :hammer_and_wrench: **Technologies**
+
+<div align="center">
 
 |           :globe_with_meridians: FrontEnd           |
 | :-------------------------------------------------: |
@@ -113,9 +113,9 @@ $ ng serve --open ou ng s -o
 
 ---
 
-<div align="center">
-
 ## :sparkles: **Features**
+
+<div align="center">
 
 |                                                       |
 | :---------------------------------------------------: |
