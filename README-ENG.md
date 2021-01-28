@@ -1,8 +1,6 @@
-<div align="right">
-  
+<div align="right">  
   [![Portuguese](https://www.countryflags.io/us/flat/32.png)](README.md)
-  [![English](https://www.countryflags.io/us/flat/32.png)](README-ENG.md)
-  
+  [![English](https://www.countryflags.io/us/flat/32.png)](README-ENG.md)  
 </div>
 
 <p align="center">
