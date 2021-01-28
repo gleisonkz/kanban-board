@@ -34,7 +34,7 @@
 
 <div align="center">
 
-Para ver o deploy [Clique Aqui](https://kz-kanban-board.netlify.app/)
+Deploy: [![Netlify Status](https://api.netlify.com/api/v1/badges/b06c3e8d-6f13-4ee9-91d8-0fef1e218307/deploy-status)](https://app.netlify.com/sites/kz-kanban-board/deploys)
 
 | Pré Visualização  
 | :------------------------------------------------------------------------------------:
