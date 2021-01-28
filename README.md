@@ -34,7 +34,7 @@
 
 <div align="center">
 
-Deploy efetuado no Netlify para visualizar: [Clique Aqui](https://kz-kanban-board.netlify.app/)
+Deploy efetuado no [Netlify](https://www.netlify.com/) para visualizar: [Clique Aqui](https://kz-kanban-board.netlify.app/)
 
 | Pré Visualização  
 | :------------------------------------------------------------------------------------:
