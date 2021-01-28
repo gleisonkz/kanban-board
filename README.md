@@ -34,7 +34,7 @@
 
 <div align="center">
 
-Para ver o deploy [Clique Aqui](https://kz-kanban-board.netlify.app/)
+Para ver o deploy [Clique Aqui](https://kz-kanban-board.netlify.app/){:target="\_blank"}
 
 | Preview  
 | :------------------------------------------------------------------------------------:
@@ -90,13 +90,13 @@ $ ng serve --open ou ng s -o
 
 ## :hammer_and_wrench: **Tecnologias**
 
-|           :globe_with_meridians: FrontEnd           |
-| :-------------------------------------------------: |
-|          [Angular 11](https://angular.io/)          |
-| [Angular Material 11](https://material.angular.io/) |
-|           [SASS](https://sass-lang.com/)            |
-| [TypeScript 4.0.2](https://www.typescriptlang.org/) |
-|    [Rxjs 6.6.0](https://rxjs.dev/guide/overview)    |
+|                     :globe_with_meridians: FrontEnd                     |
+| :---------------------------------------------------------------------: |
+|          [Angular 11](https://angular.io/){:target="\_blank"}           |
+| [Angular Material 11](https://material.angular.io/) {:target="\_blank"} |
+|           [SASS](https://sass-lang.com/) {:target="\_blank"}            |
+| [TypeScript 4.0.2](https://www.typescriptlang.org/) {:target="\_blank"} |
+|    [Rxjs 6.6.0](https://rxjs.dev/guide/overview) {:target="\_blank"}    |
 
 ---
 
