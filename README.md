@@ -34,7 +34,7 @@
 
 <div align="center">
 
-Para ver o deploy [Clique Aqui](https://kz-kanban-board.netlify.app/){:target="\_blank"}
+Para ver o deploy [Clique Aqui](https://kz-kanban-board.netlify.app/)
 
 | Preview  
 | :------------------------------------------------------------------------------------:
@@ -53,7 +53,7 @@ Aplicação feita para praticar alguns conceitos de Drag and Drop utilizando o A
 
 Para executar esse projeto você precisa baixar este repositório, ter o Gerenciador de Pacotes do Node ([`NPM`](https://www.npmjs.com/get-npm)) ou o Gerenciador de Pacotes YARN ([`YARN`](https://yarnpkg.com/getting-started)) instalado.
 
-Abra o prompt de comando no diretório do projeto, abra a pasta [`exemplo/`](exemplo/) e execute os seguintes códigos:
+Abra o prompt de comando no diretório do projeto, e execute os seguintes códigos:
 
 <details>
   <summary><i>com <b>npm</b></i></summary>
@@ -90,13 +90,13 @@ $ ng serve --open ou ng s -o
 
 ## :hammer_and_wrench: **Tecnologias**
 
-|                     :globe_with_meridians: FrontEnd                     |
-| :---------------------------------------------------------------------: |
-|          [Angular 11](https://angular.io/){:target="\_blank"}           |
-| [Angular Material 11](https://material.angular.io/) {:target="\_blank"} |
-|           [SASS](https://sass-lang.com/) {:target="\_blank"}            |
-| [TypeScript 4.0.2](https://www.typescriptlang.org/) {:target="\_blank"} |
-|    [Rxjs 6.6.0](https://rxjs.dev/guide/overview) {:target="\_blank"}    |
+|           :globe_with_meridians: FrontEnd           |
+| :-------------------------------------------------: |
+|          [Angular 11](https://angular.io/)          |
+| [Angular Material 11](https://material.angular.io/) |
+|           [SASS](https://sass-lang.com/)            |
+| [TypeScript 4.0.2](https://www.typescriptlang.org/) |
+|    [Rxjs 6.6.0](https://rxjs.dev/guide/overview)    |
 
 ---
 
