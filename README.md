@@ -82,7 +82,7 @@ $ ng serve --open ou ng s -o
 
 ```bash
 # Instalar dependências
-$ yarn
+$ yarn install
 
 # Iniciar o servidor de desenvolvimento
 $ ng serve --open ou ng s -o
@@ -117,7 +117,7 @@ $ ng serve --open ou ng s -o
 
 <div align="center">
 
-|                                            |
+|              :page_facing_up:              |
 | :----------------------------------------: |
 | Drag and Drop das tarefas entre os quadros |
 |          Deletar e Editar tarefas          |
