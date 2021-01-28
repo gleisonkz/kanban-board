@@ -57,6 +57,7 @@ Application built to practice some concepts about Drag and drop with Angular 11.
 ## :arrow_forward: **Run**
 
 <div align="center">
+
 To run this project you need to clone this repository, have the NOde Package Manager ([`NPM`](https://www.npmjs.com/get-npm)) or the YARN Package Manager ([`YARN`](https://yarnpkg.com/getting-started)) installed.
 
 Open the command prompt in the project directory, and execute the following commands:
