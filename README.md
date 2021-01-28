@@ -15,7 +15,7 @@
   <a href="https://github.com/gleisonkz">
     <img alt="Developed by Gleison" src="https://img.shields.io/badge/Developer-Gleison-%3498db?color=3498db&style=for-the-badge">
   </a>  
-  <img alt="Project License" src="https://img.shields.io/apm/l/vim-mode?style=for-the-badge"/>
+  <img alt="Project License" src="https://img.shields.io/apm/l/vim-mode?style=for-the-badge"/>  
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@
 
 <div align="center">
 
-Deploy: [![Netlify Status](https://api.netlify.com/api/v1/badges/b06c3e8d-6f13-4ee9-91d8-0fef1e218307/deploy-status)](https://app.netlify.com/sites/kz-kanban-board/deploys)
+Deploy efetuado no Netlify para visualizar: [Clique Aqui](https://kz-kanban-board.netlify.app/)
 
 | Pré Visualização  
 | :------------------------------------------------------------------------------------:
