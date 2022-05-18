@@ -103,10 +103,10 @@ $ ng serve --open ou ng s -o
 
 |           :globe_with_meridians: FrontEnd           |
 | :-------------------------------------------------: |
-|          [Angular 11](https://angular.io/)          |
-| [Angular Material 11](https://material.angular.io/) |
+|          [Angular 13](https://angular.io/)          |
+| [Angular Material 13](https://material.angular.io/) |
 |           [SASS](https://sass-lang.com/)            |
-| [TypeScript 4.0.2](https://www.typescriptlang.org/) |
+| [TypeScript 4.6.4](https://www.typescriptlang.org/) |
 |    [Rxjs 6.6.0](https://rxjs.dev/guide/overview)    |
 
 </div>
