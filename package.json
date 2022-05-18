@@ -10,6 +10,9 @@
     "e2e": "ng e2e",
     "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
   },
+  "engines": {
+    "node": "12.20.0"
+  },
   "private": true,
   "dependencies": {
     "@angular-architects/module-federation": "^14.2.3",
